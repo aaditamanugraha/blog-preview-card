@@ -908,6 +908,11 @@ video {
   width: 1.25rem;
 }
 
+.w-min {
+  width: -moz-min-content;
+  width: min-content;
+}
+
 .flex-shrink {
   flex-shrink: 1;
 }
