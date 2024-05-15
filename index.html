@@ -12,51 +12,57 @@
     <link rel="stylesheet" href="./src/css/output.css" />
     <title>Frontend Mentor | Blog preview card</title>
   </head>
-  <body class="mx-auto bg-yellow h-full flex-row">
-    <main
-      class="bg-white mb-6 w-80 rounded-xl overflow-hidden drop-shadow-custom p-4 border"
-    >
-      <img
-        src="./assets/images/illustration-article.svg"
-        alt=""
-        class="rounded-lg mb-4"
-      />
-      <div id="section" class="w-max px-3 py-1 rounded-md bg-yellow mb-2">
-        <h2 class="font-bold text-xs">Learning</h2>
-      </div>
+  <body class="mx-auto bg-yellow h-screen grid place-items-center">
+    <div class="grid place-items-center">
+      <main
+        class="bg-white mb-6 w-80 rounded-xl overflow-hidden drop-shadow-custom p-4 border"
+      >
+        <img
+          src="./assets/images/illustration-article.svg"
+          alt=""
+          class="rounded-lg mb-4"
+        />
+        <div id="section" class="w-max px-3 py-1 rounded-md bg-yellow mb-2">
+          <h2 class="font-bold text-xs">Learning</h2>
+        </div>
 
-      <p class="text-xs mb-3">Published 21 Dec 2023</p>
+        <p class="text-xs mb-3">Published 21 Dec 2023</p>
 
-      <div id="article">
-        <h1 class="text-lg font-bold mb-2">HTML `& CSS foundations</h1>
-        <p class="text-sm text-grey mb-4">
-          These languages are the backbone of every website, defining structure,
-          content, and presentation.
+        <div id="article">
+          <h1 class="text-lg font-bold mb-2">HTML `& CSS foundations</h1>
+          <p class="text-sm text-grey mb-4">
+            These languages are the backbone of every website, defining
+            structure, content, and presentation.
+          </p>
+        </div>
+
+        <div id="profile" class="flex items-center">
+          <img
+            src="./assets/images/image-avatar.webp"
+            alt=""
+            class="w-8 mr-3"
+          />
+          <p class="text-xs font-bold">Greg Hooper</p>
+        </div>
+      </main>
+
+      <footer>
+        <p class="text-xs">
+          Challenge by
+          <a
+            href="https://www.frontendmentor.io/learning-paths/getting-started-on-frontend-mentor-XJhRWRREZd/steps/663a46c920fb35b1b60c16f5/challenge/start"
+            target="_blank"
+            class="hover:underline"
+            >Frontend Mentor</a
+          >. Coded by
+          <a
+            href="https://www.frontendmentor.io/profile/aaditamanugraha"
+            target="_blank"
+            class="hover:underline"
+            >Adhitya Aditama Nugraha</a
+          >.
         </p>
-      </div>
-
-      <div id="profile" class="flex items-center">
-        <img src="./assets/images/image-avatar.webp" alt="" class="w-8 mr-3" />
-        <p class="text-xs font-bold">Greg Hooper</p>
-      </div>
-    </main>
-
-    <footer>
-      <p class="text-xs">
-        Challenge by
-        <a
-          href="https://www.frontendmentor.io/learning-paths/getting-started-on-frontend-mentor-XJhRWRREZd/steps/663a46c920fb35b1b60c16f5/challenge/start"
-          target="_blank"
-          class="hover:underline"
-          >Frontend Mentor</a
-        >. Coded by
-        <a
-          href="https://www.frontendmentor.io/profile/aaditamanugraha"
-          target="_blank"
-          class="hover:underline"
-          >Adhitya Aditama Nugraha</a
-        >.
-      </p>
-    </footer>
+      </footer>
+    </div>
   </body>
 </html>
